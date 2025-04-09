@@ -23,7 +23,8 @@ SECRET_KEY = 'django-insecure-01g+bcgt^!^jzf=zfpuvscqr6(od+v-!zu#!psc#wu_@(fg5m5
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['college-chatbot-vnwc.onrender.com', 'localhost', '127.0.0.1']
+
 
 
 # Application definition

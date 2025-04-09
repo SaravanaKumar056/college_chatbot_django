@@ -1,3 +1,4 @@
+import os
 import requests
 from textblob import TextBlob
 import time
@@ -19,7 +20,8 @@ def correct_spelling(user_input):
     return " ".join(corrected_words)
 
 
-API_TOKEN = os.getenv("HF_TOKEN ")
+API_TOKEN = os.getenv("HF_TOKEN")
+#API_TOKEN = "hi"
 API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.1"
 
 headers = {
