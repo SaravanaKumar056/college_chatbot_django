@@ -1,0 +1,7 @@
+from PIL import Image
+
+# Create a 16x16 pixel image with a solid color (e.g., blue)
+image = Image.new('RGB', (16, 16), color='blue')
+
+# Save the image as a .ico file
+image.save('favicon.ico', format='ICO')

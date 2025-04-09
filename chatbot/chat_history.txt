@@ -1,0 +1,6 @@
+You: hi
+AI: ⚠️ Sorry, I couldn't generate a response at the moment. Please try again later.
+
+You: hicas
+AI: Hindustan College of Arts and Science is located in Coimbatore, Tamil Nadu. Visit: https://www.hicas.ac.in/
+
