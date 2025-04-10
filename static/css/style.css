@@ -7,24 +7,42 @@
   
   body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+<<<<<<< HEAD
     background: #f2f2f2;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+=======
+    font-size: 1rem;
+    background: #f2f2f2;
+    height: 100vh;
+    margin: 0;
+>>>>>>> da6387b62bdf939499d492dd0e96a422c65a866c
   }
   
   .chat-container {
     width: 100%;
+<<<<<<< HEAD
     max-width: 500px;
     background: #fff;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+=======
+    height: 100vh;
+    background: #fff;
+    border-radius: 0;
+    box-shadow: none;
+>>>>>>> da6387b62bdf939499d492dd0e96a422c65a866c
     overflow: hidden;
     display: flex;
     flex-direction: column;
   }
   
+<<<<<<< HEAD
+=======
+  
+>>>>>>> da6387b62bdf939499d492dd0e96a422c65a866c
   .chat-header {
     background: #4b7bec;
     padding: 20px;
@@ -58,13 +76,27 @@
     padding: 10px 15px;
     border-radius: 16px 16px 16px 0;
     max-width: 80%;
+<<<<<<< HEAD
   }
   
   .chat-form {
+=======
+    transition: all 0.3s ease;
+  }
+  
+  .chat-form {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+>>>>>>> da6387b62bdf939499d492dd0e96a422c65a866c
     display: flex;
     padding: 15px;
     border-top: 1px solid #ddd;
     background: #fff;
+<<<<<<< HEAD
+=======
+    z-index: 10;
+>>>>>>> da6387b62bdf939499d492dd0e96a422c65a866c
   }
   
   .chat-form input[type="text"] {
@@ -91,4 +123,70 @@
   .chat-form button:hover {
     background: #3867d6;
   }
+<<<<<<< HEAD
+=======
+  
+  .chat-form input[type="text"]::placeholder {
+    color: #999;
+    font-style: italic;
+  }
+  
+  @media (max-width: 768px) {
+    /* Tablets and small screens */
+    .chat-box {
+      height: 350px;
+    }
+  
+    .chat-form input[type="text"],
+    .chat-form button {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    /* Mobile phones */
+    .chat-box {
+      height: 300px;
+    }
+  
+    .chat-form {
+      flex-direction: column;
+      gap: 8px;
+    }
+  
+    .chat-form button {
+      width: 100%;
+    }
+  }
+  .typing-indicator {
+    display: none; /* Hidden by default */
+    font-style: italic;
+    color: #888;
+    padding: 8px 12px;
+    background-color: #e9ecef;
+    border-radius: 16px;
+    align-self: flex-start;
+    max-width: 80%;
+    margin: 0 auto;
+    animation: blink 1.5s infinite;
+  }
+  .hidden {
+    display: none;
+  }
+  
+  /* Optional: typing animation */
+  @keyframes blink {
+    0% { opacity: 0.10; }
+    50% { opacity: 1; }
+    100% { opacity: 0.10; }
+  }
+  
+  .chat-welcome {
+    background: #f0f0f0;
+    color: #444;
+    padding: 12px 16px;
+    border-bottom: 1px solid #ddd;
+    font-style: italic;
+  }
+>>>>>>> da6387b62bdf939499d492dd0e96a422c65a866c
   
